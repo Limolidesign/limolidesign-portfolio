@@ -1,0 +1,97 @@
+{
+ "updated": "2026-11-08",
+ "note": "Weekly update target. Replace or append items; keep newest first. Thumbnails/videos must be saved under assets/content/ (Instagram CDN links expire).",
+ "instagram": {
+  "handle": "@joe_limoli",
+  "url": "https://www.instagram.com/joe_limoli/",
+  "reels": [
+   {
+    "title": "The Social Chair sneak peek",
+    "caption": "A first look at The Social Chair Barber Co.",
+    "url": "https://www.instagram.com/joe_limoli/",
+    "video": "assets/social.mp4",
+    "thumb": "assets/social.jpg",
+    "fit": "contain",
+    "bg": "#FF5905",
+    "date": "2026-11-07"
+   },
+   {
+    "title": "Starbucks outside menu",
+    "caption": "Outside menu design",
+    "url": "https://www.instagram.com/joe_limoli/",
+    "thumb": "assets/content/starbucks-outside-menu.jpg"
+   },
+   {
+    "title": "LT Electric logo redesign",
+    "caption": "LT Electric logo redesign",
+    "url": "https://www.instagram.com/joe_limoli/",
+    "video": "assets/lt-breakdown.mp4",
+    "thumb": "assets/lt-breakdown.jpg"
+   },
+   {
+    "title": "Five Guys Racing",
+    "caption": "Five Guys Racing merch tag",
+    "url": "https://www.instagram.com/joe_limoli/",
+    "thumb": "assets/content/five-guys-tag.jpg"
+   },
+   {
+    "title": "Brew Zone brand reel",
+    "caption": "Brew Zone brand reel",
+    "url": "https://www.instagram.com/joe_limoli/",
+    "video": "assets/content/brew-zone-reel.mp4",
+    "thumb": "assets/content/brew-zone-cover.jpg"
+   },
+   {
+    "title": "Reekon",
+    "caption": "Reekon product photography",
+    "url": "https://www.instagram.com/joe_limoli/",
+    "thumb": "assets/content/reekon-tracker.jpg"
+   },
+   {
+    "title": "Starbucks Seafood and Spirits",
+    "caption": "Starbucks Seafood and Spirits concept",
+    "url": "https://www.instagram.com/joe_limoli/",
+    "video": "assets/content/starbucks-reel.mp4",
+    "thumb": "assets/content/starbucks-cover.jpg"
+   },
+   {
+    "title": "734",
+    "caption": "734 neon street sign",
+    "url": "https://www.instagram.com/joe_limoli/",
+    "thumb": "assets/content/734-street-sign.jpg"
+   },
+   {
+    "title": "Reekon T1 Tomahawk box",
+    "caption": "Reekon T1 Tomahawk packaging",
+    "url": "https://www.instagram.com/joe_limoli/",
+    "thumb": "assets/content/reekon-tomahawk-box.jpg"
+   }
+  ]
+ },
+ "linkedin": {
+  "url": "https://www.linkedin.com/in/joe-limoli/",
+  "source_doc": "https://docs.google.com/document/d/1L0q1qnt9SqCjCn2ZJ460Y0WxMkW0T48Szsllmj5kjFE/edit",
+  "posts": [
+   {
+    "date": "Anti-AI trend",
+    "text": "Rebelling against AI isn't a strategy, it's a reaction."
+   },
+   {
+    "date": "Human-made badges",
+    "text": "If your people value craft, wear that \"no AI\" badge proudly. It attracts your people."
+   },
+   {
+    "date": "Blanding",
+    "text": "Erasing what your founders built just to look like everyone else? That's forgetting who you're for."
+   },
+   {
+    "date": "Personalization",
+    "text": "Flex the angle all you want. Just never flex the core."
+   },
+   {
+    "date": "Designing for virality",
+    "text": "Eroding the whole brand for a few quick sales? Not worth it."
+   }
+  ]
+ }
+}
