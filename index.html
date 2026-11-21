@@ -718,13 +718,13 @@ a.addEventListener('click',function(e){
   if(sampleVideo){try{oc=samp(a.querySelector('video'))||oc;sessionStorage.setItem('tscOrange',oc)}catch(e){}}
   var o=document.createElement('div');
   o.style.cssText='position:fixed;z-index:15;left:'+r.left+'px;top:'+r.top+'px;width:'+r.width+'px;height:'+r.height+'px;border-radius:'+getComputedStyle(a).borderTopLeftRadius+';background:'+oc+';pointer-events:none';
-  document.body.appendChild(o);void o.offsetWidth;
+  o.setAttribute('data-curtain','1');document.body.appendChild(o);void o.offsetWidth;
   var t='.7s cubic-bezier(.7,0,.2,1)';
   o.style.transition='left '+t+',top '+t+',width '+t+',height '+t+',border-radius '+t;
   o.style.left='0px';o.style.top='0px';o.style.width=W+'px';o.style.height=H+'px';o.style.borderRadius='0px';
   var lg=document.createElement('img');lg.src=logo;lg.alt='';
   lg.style.cssText='position:fixed;z-index:16;left:50%;top:50%;width:'+lw+';transform:translate(-50%,-50%);opacity:0;pointer-events:none;transition:opacity .45s ease .2s';
-  document.body.appendChild(lg);void lg.offsetWidth;lg.style.opacity=1;
+  lg.setAttribute('data-curtain','1');document.body.appendChild(lg);void lg.offsetWidth;lg.style.opacity=1;
   var go=function(){location.href=href+'#from-card'},t0=Date.now(),fin=false;
   var nav=function(){if(fin)return;fin=true;go()};
   var minw=new Promise(function(r){setTimeout(r,720)});
@@ -742,7 +742,7 @@ init('brew-zone.html','#05ADE1','assets/bz/curtain-icon.png','clamp(120px,16vw,2
 init('lt-electric.html','#CCFF00','assets/lt/curtain-icon.png','clamp(120px,16vw,220px)',['assets/lt/hero.jpg'],false);
 init('choice-fitness.html','#FFE000','assets/cf/curtain-icon.png','clamp(120px,16vw,220px)',['assets/cf/hero.jpg'],false);
 
-addEventListener('pageshow',function(e){if(e.persisted)document.querySelectorAll('body>div[style*="z-index:14"],body>div[style*="z-index:15"],body>img[style*="z-index:16"]').forEach(function(x){x.remove()});all.forEach(function(a){delete a.dataset.go})});
+addEventListener('pageshow',function(){document.querySelectorAll('[data-curtain]').forEach(function(x){x.remove()});all.forEach(function(a){delete a.dataset.go})});
 })();
 </script>
 <div class="mm" id="mm" role="dialog" aria-modal="true" aria-labelledby="mm-t" aria-hidden="true">
